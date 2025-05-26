@@ -471,7 +471,7 @@ elif page == "Performa Model":
                 
                 st.subheader("Metrik Akurasi Keseluruhan")
                 st.markdown(f"""
-                    <div class='stat-box' style='background-color: rgba(144, 238, 144, 0.1); border-left: 5px solid lightgreen;'>
+                    <div class='stat-box' style='background-color: #7F8CAA; border-left: 5px solid lightgreen;'>
                         <h3>🎯 Akurasi Model</h3>
                         <h2>{accuracy:.4f}</h2>
                         <p>semakin tinggi semakin baik</p>
