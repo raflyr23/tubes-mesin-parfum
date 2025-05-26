@@ -304,7 +304,7 @@ def performance_page(df_perfume):
     # Accuracy
     accuracy = accuracy_score(y_test_encoded, y_pred_encoded)
     st.markdown(f"""
-    <div style='background-color: #7F8CAA padding: 1rem; border-radius: 0.5rem; text-align: center; margin-bottom: 1rem;'>
+    <div style='background-color: #7F8CAA; padding: 1rem; border-radius: 0.5rem; text-align: center; margin-bottom: 1rem;'>
         <h4>🎯 Akurasi Model:</h4>
         <h2>{accuracy:.2f}</h2>
     </div>
